@@ -7,9 +7,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    chosen {
-        zmk,charmap = &charmap_us;
-    };
     behaviors {
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
